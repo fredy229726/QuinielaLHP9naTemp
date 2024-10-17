@@ -4,17 +4,17 @@ document.getElementById('form')
 
 .addEventListener('submit', function(event) {
     event.preventDefault();
-    btn.value = 'Sending...';
+    btn.value = 'Capturando...';
 
     const serviceID = 'default_service';
     const templateID = 'template_1ayuvjg';
 
     emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
-        btn.value = 'Send Email';
-        alert('Sent!');
+        btn.value = 'Capturar Quiniela';
+        alert('¡Capturada!');
     }, (err) => {
-        btn.value = 'Send Email';
+        btn.value = 'Capturar Quiniela';
         alert(JSON.stringify(err));
     });
 });
