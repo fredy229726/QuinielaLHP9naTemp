@@ -14,7 +14,7 @@ document.getElementById('form')
         btn.value = 'Capturar Quiniela';
         alert('¡Capturada!');
     }, (err) => {
-        btn.value = 'Capturar Quiniela';
+        btn.value = 'Quiniela Capturada';
         alert(JSON.stringify(err));
     });
 });
