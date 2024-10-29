@@ -114,7 +114,7 @@ th, td {
 
 
 th {
-    background-color: #f2f2f2;
+    background-color: ;
 }
 
 input[type="submit"] {
@@ -140,4 +140,16 @@ input[type="submit"]:hover {
 input[type="submit"]:active {
     background-color: #3B4CCA;
     transform: scale(0.95);
+}
+
+.w {
+    background-color:deepskyblue;
+}
+
+.l {
+    background-color:#FF1C1C;
+}
+
+.d {
+    background-color: lightgrey;
 }
