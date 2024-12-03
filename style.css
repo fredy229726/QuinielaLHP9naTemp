@@ -153,3 +153,13 @@ input[type="submit"]:active {
 .t {
     background-color: lightgrey;
 }
+
+.carta {
+    flex: 1;
+    align-items: center;
+}
+
+.carta-img {
+    width: auto;
+    height: 220px;
+}
