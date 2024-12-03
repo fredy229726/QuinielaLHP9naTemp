@@ -163,3 +163,44 @@ input[type="submit"]:active {
     width: auto;
     height: 220px;
 }
+
+@media (max-width: 720px) {
+    .carta {
+        flex: 1;
+        text-align: center;
+        position: ;
+    }
+
+    .carta-img {
+        width: auto;
+        height: 120px;
+    }
+}
+
+/* Estilos para pantallas de entre 601 y 1200 píxeles de ancho */
+@media (min-width: 721px) and (max-width: 1200px) {
+    .carta {
+        flex: 1;
+        text-align: center;
+        position: ;
+    }
+
+    .carta-img {
+        width: auto;
+        height: 120px;
+    }
+}
+
+/* Estilos para pantallas de más de 1200 píxeles de ancho */
+@media (min-width: 1201px) {
+    .carta {
+        flex: 1;
+        text-align: center;
+        position: ;
+    }
+
+    .carta-img {
+        width: auto;
+        height: 220px;
+    }
+}
